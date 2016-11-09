@@ -122,7 +122,7 @@ var_dump(makereq('sendMessage',[
  
 var_dump(makereq('sendMessage',[
         'chat_id'=>$update->message->chat->id,
-        'text'=>"Hi `#$name` \nWelcome To @ibornbot\nSend Your *pm* And Wait",
+        'text'=>"Hi `#$name` \nWelcome To @Dragon_DevRobot\nSend Your *pm* And Wait",
         'parse_mode'=>'MarkDown',
         'reply_markup'=>json_encode([
             'keyboard'=>[
