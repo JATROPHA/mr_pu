@@ -1,6 +1,6 @@
 <?php
 
-define('API_KEY','TOKEN');
+define('API_KEY','239767461:AAFIf9UHRmhJg0pw81zFujxDdI-bY8GBDUc');
 //----######------
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -163,8 +163,8 @@ elseif($textmessage == 'Profile')
 	
 	elseif($textmessage == 'Contact Admin')
 {
-	$phone = '+989216358178';
-	$namea = 'MR.# | @ibornbot';
+	$phone = '+639380242383';
+	$namea = 'MR.sh | @Dragon_DevRobot';
 makereq('sendContact',[
 	'chat_id'=>$chat_id,
 	'phone_number'=>$phone,
@@ -184,7 +184,7 @@ if($chat_id == $admin){
 		-*/setprofile* [text]
 		نتظیم پروفایل شما
     
-    developer: [MR.# | @ibornbot](https://telegram.me/iborn)");
+    developer: [MR.sh | @Dragon_DevRobot](https://telegram.me/Dragon_Dev)");
 	}
 }
 else
@@ -196,12 +196,12 @@ else
 		send Your Location
 		
 		-*Contact Admin*
-		@iborn contact
+		@Dragon_Dev contact
 		
 		-*Profile*
 		about Me
     
-    developer: [MR.# | @ibornbot](https://telegram.me/iborn)");
+    developer: [MR.sh | @dragon_devrobot](https://telegram.me/Dragon_Dev)");
 	}
 
 
